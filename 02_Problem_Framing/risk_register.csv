@@ -1,0 +1,11 @@
+risk_id,risk,likelihood,impact,mitigation,status
+R01,Very small dataset with only 12 records,High,High,Obtain a larger representative dataset before making deployment decisions,Open
+R02,Unverified dataset provenance and usage permission,Medium,High,Confirm source licensing and permitted use with the dataset provider,Open
+R03,Unverified churn target definition and prediction horizon,Medium,High,Confirm label definition and future observation window,Open
+R04,Potential data leakage from features unavailable at prediction time,Medium,High,Audit feature timing and exclude post-outcome information,Open
+R05,False positive churn predictions,Medium,Medium,Measure precision and assess the cost of unnecessary retention outreach,Open
+R06,False negative churn predictions,Medium,Medium,Measure recall and review missed churn cases,Open
+R07,Potential bias from unrepresentative customer records,Unknown,High,Verify sampling method and evaluate appropriate groups when data permits,Open
+R08,Customer privacy or unauthorised data disclosure,Unknown,High,Verify permissions and remove or protect unnecessary identifying information,Open
+R09,Unreliable evaluation due to small test sample,High,High,Report uncertainty and obtain more independent evaluation data,Open
+R10,Model performance deterioration after deployment,Unknown,High,Define monitoring thresholds, human review, and rollback procedures before deployment,Open
