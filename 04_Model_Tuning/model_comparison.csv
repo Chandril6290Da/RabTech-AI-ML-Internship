@@ -1,0 +1,5 @@
+Model,Best CV F1,CV Precision,CV Recall,CV ROC-AUC,Best Parameters
+Logistic Regression,1.0,1.0,1.0,1.0,{'model__C': 0.1}
+Random Forest,1.0,1.0,1.0,1.0,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 50}"
+Extra Trees,1.0,1.0,1.0,1.0,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 50}"
+Support Vector Machine,1.0,1.0,1.0,1.0,"{'model__C': 0.1, 'model__kernel': 'linear'}"
