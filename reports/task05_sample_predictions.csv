@@ -1,0 +1,5 @@
+message,prediction,spam_probability,predicted_class_confidence
+Congratulations! You have won a free prize. Claim it now!,Spam,0.9886,0.9886
+"Hi, are we still meeting for lunch today?",Not Spam,0.0105,0.9895
+URGENT! You have been selected for a cash reward. Call now!,Spam,0.9818,0.9818
+Please send me the notes after class.,Not Spam,0.0104,0.9896
